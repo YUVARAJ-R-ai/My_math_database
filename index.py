@@ -18,15 +18,15 @@ if ms.is_connected():
 os.system("cls")
 print("1>Sign up by creating a new user")
 print("2>Login into exixting account")
-choice=int(input("Enter your choice: "))
-if(choice==1):
+choice=input("Enter your choice: ")
+if(choice=="1"):
     username=input("Enter user name:").lower()
     password=input("Enter password:")
     cls=input("Enter class:")
     querry='insert into user_info(name,password,class) values("{}","{}","{}")'.format(username,password,cls)
     c.execute(querry)
     ms.commit()
-elif(choice==2):
+elif(choice=="2"):
     username=input("Enter user name:").lower()
     password=input("Enter password:")
     querry='SELECT EXISTS(SELECT * from user_info WHERE name="{}" and password="{}");'.format(username,password)
