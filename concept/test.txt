@@ -1,0 +1,32 @@
+***
+2
+***
+Angle of Elevation
+***
+Angle of Elevation(Theta):
+The angle formed between the horizontal line and the line of sight when an observer is
+looking up at an object.
+Formulas:
+tan(Theta)= apposite side /adjacent side
+In the context of angle of elevation, the "opposite side" is usually the 
+height of the object being observed, and the "adjacent side" is the 
+horizontal distance from the observer to the object.
+
+cos(Theta)=adjacent/hypotenues
+This is used if you know the horizontal distance and the
+ distance along the line of sight.
+
+sin(Theta)=apposite/hypotenuse 
+This is useful if you know the height of the object and the distance along the
+ line of sigh
+***
+A tower stands vertically on the ground. From a point on the ground, which is 48m away from the foot of 
+the tower, the angle of elevation of the top of the tower is 30 degree . Find the height of the tower.
+***
+C:\\Users\\sindu\\Documents\\python\\math_fun\\soln_img\\angle of elevation.png
+***
+Construction
+***
+The angle of elevation is often used in scenarios like surveying land, calculating 
+the height of objects, and in physics for problems involving projectile motion.
+***
